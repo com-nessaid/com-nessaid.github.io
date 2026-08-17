@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nessaid Android</title>
+<style>
+  :root {
+    --bg: #fbfdf8;
+    --fg: #1b1c19;
+    --muted: #45483f;
+    --rule: #dde5d5;
+    --accent: #2c6b2f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12140f;
+      --fg: #e3e3dc;
+      --muted: #c3c8bb;
+      --rule: #2d3129;
+      --accent: #9ad498;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; margin: 0 0 .5rem; }
+  .tagline { color: var(--muted); margin: 0 0 2.5rem; }
+  .app {
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+  }
+  .app h2 { margin: 0 0 .35rem; font-size: 1.25rem; }
+  .app p { margin: 0 0 1rem; color: var(--muted); }
+  a { color: var(--accent); }
+  ul.links { list-style: none; padding: 0; margin: 0; }
+  ul.links li { display: inline-block; margin-right: 1.25rem; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Nessaid Android</h1>
+  <p class="tagline">Small Android apps.</p>
+
+  <section class="app">
+    <h2>Battery Alarm</h2>
+    <p>
+      Sounds an alarm when the battery reaches a level you choose — above,
+      below, or outside a range. Speech, tone and vibration alerts, snooze, and
+      nine languages.
+    </p>
+    <ul class="links">
+      <li><a href="privacy.html">Privacy policy</a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=com.nessaid.nessbatalarm">Google Play</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:com.nessaid@gmail.com">com.nessaid@gmail.com</a></p>
+  </footer>
+
+</main>
+</body>
+</html>
